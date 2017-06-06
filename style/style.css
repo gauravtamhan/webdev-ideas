@@ -9,7 +9,7 @@
 
 .placeholder {
 	width: 100%;
-	height: 500px;
+	height: 200px;
 	background-color: #000;
 }
 #mylist {
@@ -20,4 +20,7 @@
 	opacity: 0;
 }
 
+.row {
+	margin-top: 5%;
+}
 
