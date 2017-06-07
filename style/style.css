@@ -3,6 +3,10 @@
       height: 600px;
 }
 
+.smaller {
+	height: 500px;
+}
+
 .section {
 	background-color: #212121;
 }
