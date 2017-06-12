@@ -11,19 +11,36 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- References for page styling -->
   <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
   <script type="text/javascript" src="js/animate.js"></script>
 
-  <div class="parallax-container">
-    <div class="parallax"><img src="images/parallax3.jpg"></div>
-    <div class="row container">
-      <div class="col m2 offset-m5">
-        <a class="waves-effect waves-light red lighten-1 btn" href="resume.html">Resume</a>
+
+    <nav class="grey darken-4">
+      <div class="nav-wrapper grey darken-4">
+        <a href="#!" class="brand-logo"><i class="material-icons">cloud</i></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">GitHub</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">GitHub</a></li>
+        </ul>
       </div>
-    </div>
+    </nav>
+
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/parallax2.jpg"></div>
   </div>
   <div class="section">
     <div class="row container">
@@ -40,7 +57,7 @@
   </div>
 
   <div class="parallax-container">
-    <div class="parallax"><img src="images/parallax2.jpg"></div>
+    <div class="parallax"><img src="images/parallax3.jpg"></div>
   </div>
 
   <div class="section">
